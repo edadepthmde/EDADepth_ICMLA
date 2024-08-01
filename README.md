@@ -3,7 +3,7 @@
 ### Installation:
 Clone the repo and run the following commands:
 ```bash
-cd EDADepth
+cd EDADepth_ICMLA
 conda env create -f edadepth_env.yml
 conda activate EDADepth
 ```
@@ -14,11 +14,11 @@ After extracting the datasets, copy the datasets to the following directories:
 
 NYUv2: 
 ```
-EDADepth/depth/data/nyu
+EDADepth_ICMLA/depth/data/nyu
 ```
 KITTI: 
 ```
-EDADepth/depth/data/kitti
+EDADepth_ICMLA/depth/data/kitti
 ```
 The dataset structure should look similar to the following:
 
@@ -38,7 +38,7 @@ kitti
 Please download the Stable-diffusion-v1-5-eamonly-pruned checkpoint from [this link](https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.ckpt) and paste it to the following directory:
 
 ```commandline
-EDADepth/checkpoints
+EDADepth_ICMLA/checkpoints
 ```
 ### Evaluation using Pre-trained models:
 If you want to evaluate the test dataset using our pre-trained models, you can download our pre-trained checkpoints. 
@@ -48,7 +48,7 @@ If you want to evaluate the test dataset using our pre-trained models, you can d
 
 After downloading the checkpoints, copy them and paste them to the following directory:
 ```
-EDADepth/depth/checkpoints_depth
+EDADepth_ICMLA/depth/checkpoints_depth
 ```
 Finally, navigate to depth directory and run the following commands:
 
