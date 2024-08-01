@@ -60,3 +60,6 @@ For KITTI:
 ```bash
 bash test_kitti.sh
 ```
+
+### Acknolwledgements 
+Our source code is inspired from [ECoDepth](https://github.com/Aradhye2002/EcoDepth), [VPD](https://github.com/wl-zhao/VPD), [Stable Diffusion](https://github.com/CompVis/stable-diffusion), [LDM](https://github.com/CompVis/latent-diffusion) and [GLPDepth](https://github.com/vinvino02/GLPDepth)
